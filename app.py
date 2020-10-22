@@ -38,6 +38,7 @@ while True:
       encouragement_list.append("talk to your friends")
       counter += 1  
       
+
      if each_word == "anger":
       feelings_list.append("anger")
       encouragement_list.append("Take a deep breath and count to three, try to think of something that is positive!")
@@ -46,6 +47,10 @@ while True:
      if each_word == "surprise":
       feelings_list.append("surprise")
       encouragement_list.append("Good for you!")
+
+     if each_word == "worried":
+      feelings_list.append("worried")
+      encouragement_list.append("everything is going to be fine")
       counter += 1
       
     if counter == 0:
