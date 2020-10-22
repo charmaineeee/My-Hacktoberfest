@@ -32,10 +32,21 @@ while True:
       feelings_list.append("dead tired")
       encouragement_list.append("Just find something fun to do")
       counter += 1
+      
      if each_word == "sad":
       feelings_list.append("sad")
       encouragement_list.append("talk to your friends")
       counter += 1  
+      
+     if each_word == "anger":
+      feelings_list.append("anger")
+      encouragement_list.append("Take a deep breath and count to three, try to think of something that is positive!")
+      counter += 1 
+      
+     if each_word == "surprise":
+      feelings_list.append("surprise")
+      encouragement_list.append("Good for you!")
+      counter += 1
       
     if counter == 0:
 
